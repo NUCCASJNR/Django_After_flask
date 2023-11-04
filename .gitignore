@@ -1,1 +1,4 @@
 django_env
+mypolls/mypolls/__pycache__
+mypolls/polls/__pycache__
+mypolls/polls/migrations/__pycache__
