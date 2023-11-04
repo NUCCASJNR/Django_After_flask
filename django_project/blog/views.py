@@ -8,7 +8,7 @@ def home(request):
     :param request:
     :return:
     """
-    return HttpResponse('<h1>Blog Home</h1>')
+    return render(request, "blog/home.html")
 
 
 def about(request):
