@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 
 def home(request):
@@ -15,6 +15,5 @@ def about(request):
     """
     About page
     :param request:
-    :return:
-    """
-    return HttpResponse('<h1>Blog About page</h1>')
+    :return:    """
+    return render(request, "blog/about.html")
