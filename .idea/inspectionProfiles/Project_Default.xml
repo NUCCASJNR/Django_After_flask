@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="59" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="19">
+            <item index="0" class="java.lang.String" itemvalue="Flask-Migrate" />
+            <item index="1" class="java.lang.String" itemvalue="Flask-WTF" />
+            <item index="2" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="3" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
+            <item index="4" class="java.lang.String" itemvalue="alembic" />
+            <item index="5" class="java.lang.String" itemvalue="Flask-Cors" />
+            <item index="6" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="7" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="8" class="java.lang.String" itemvalue="cffi" />
+            <item index="9" class="java.lang.String" itemvalue="cryptography" />
+            <item index="10" class="java.lang.String" itemvalue="click" />
+            <item index="11" class="java.lang.String" itemvalue="redis" />
+            <item index="12" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="13" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="14" class="java.lang.String" itemvalue="future" />
+            <item index="15" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="16" class="java.lang.String" itemvalue="idna" />
+            <item index="17" class="java.lang.String" itemvalue="frontend" />
+            <item index="18" class="java.lang.String" itemvalue="pip" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="backend.routes.signup.csrf_extension" />
+          <option value="backend.routes.login.forms" />
+          <option value="backend.routes.routes" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
