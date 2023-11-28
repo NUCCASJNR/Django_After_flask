@@ -1,9 +1,0 @@
-{% extends "blog/base.html" %}
-{% block content %}
-<h1>Blog Home page!</h1>
-{% for post in posts %}
-    <h2>{{ post.title }}</h2>
-    <p>BY: {{ post.author}} on {{ post.date_posted|date:"F d, Y" }}</p>
-    <p>{{ post.content }}</p>
-{% endfor %}
-{% endblock content %}
