@@ -1,3 +1,17 @@
 h1 a, h2 a {
+    color: green;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar {
+    background-color: #C25100;
+}
+time, .time {
     color: #C25100;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #570808;
 }
